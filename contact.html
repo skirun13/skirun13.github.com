@@ -69,12 +69,13 @@
   			<div class="bar" style="width: 100%;"></div>
 		</div>
 		
-        <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+        <!-- <script src="//platform.linkedin.com/in.js" type="text/javascript"></script> -->
 		<script type="IN/MemberProfile" data-id="http://www.linkedin.com/pub/eric-schuchman/17/1/357" data-format="inline" data-related="false"  id="LIScript"></script>
 		<script>
+			$.getScript("//platform.linkedin.com/in.js", function(){
     		// $("#LIScript").bind('load', function(){
     		 $("#LIProgress").hide();
- 			// });
+ 			 });
  		</script>
       </div>
 
